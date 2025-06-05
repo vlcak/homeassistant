@@ -2,7 +2,8 @@
   "type": "micro",
   "wake_word": "Zan",
   "author": "Jakub Vlcek",
-  "model": "./zan.tflite",
+  "website": "https://github.com/vlcak",
+  "model": "https://raw.githubusercontent.com/vlcak/homeassistant/refs/heads/main/voice/models/v2/zan.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
