@@ -3,7 +3,8 @@
   "wake_word": "Zan",
   "author": "Jakub Vlcek",
   "website": "https://www.vlcak.eu/",
-  "model": "./jhaaan.tflite",
+  "model": "jhaaan.tflite",
+  "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
