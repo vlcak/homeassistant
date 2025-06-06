@@ -1,9 +1,9 @@
 {
   "type": "micro",
-  "wake_word": "Zan",
+  "wake_word": "Hey zan",
   "author": "Jakub Vlcek",
   "website": "https://github.com/vlcak",
-  "model": "https://raw.githubusercontent.com/vlcak/homeassistant/refs/heads/main/voice/models/v2/zan.tflite",
+  "model": "https://raw.githubusercontent.com/vlcak/homeassistant/refs/heads/main/voice/models/hey_zan.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {

@@ -3,10 +3,14 @@
   "wake_word": "Zan",
   "author": "Jakub Vlcek",
   "website": "https://github.com/vlcak",
-  "model": "https://raw.githubusercontent.com/vlcak/homeassistant/refs/heads/main/voice/models/v2/zan.tflite",
-  "version": 1,
+  "model": "https://raw.githubusercontent.com/vlcak/homeassistant/refs/heads/main/voice/models/zan.tflite",
+  "trained_languages": ["en"],
+  "version": 2,
   "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_average_size": 5
+    "probability_cutoff": 0.9,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22348,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
